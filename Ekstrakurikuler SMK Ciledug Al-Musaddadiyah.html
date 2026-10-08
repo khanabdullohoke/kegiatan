@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="id" data-l="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ekstrakurikuler | SMK Ciledug Al-Musaddadiyah</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,700;1,800&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#0b3d91;--gold:#b8860b;--bg:#fff;--soft:#f5f7fb;--ink:#14213d;--mute:#5d6882;--line:#e4e8f1;--btn:#0b3d91;--btn-t:#fff;--dark:#0b3d91;--dark-t:#fff;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--navy:#8fb0ff;--gold:#f5b800;--bg:#0a1228;--soft:#0f1a36;--ink:#eef2ff;--mute:#a3b0d1;--line:#1f2d55;--btn:#8fb0ff;--btn-t:#0a1228;--dark:#0f1a36;--dark-t:#eef2ff}}
+:root[data-theme="dark"]{--navy:#8fb0ff;--gold:#f5b800;--bg:#0a1228;--soft:#0f1a36;--ink:#eef2ff;--mute:#a3b0d1;--line:#1f2d55;--btn:#8fb0ff;--btn-t:#0a1228;--dark:#0f1a36;--dark-t:#eef2ff}
+html{height:100%;scroll-behavior:smooth;scroll-padding-top:calc(72px + env(safe-area-inset-top,0px))}
+html[data-l=id] [lang=en],html[data-l=en] [lang=id]{display:none!important}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;min-height:100%;background:var(--bg);color:var(--ink);font:400 16.5px/1.7 'Plus Jakarta Sans',system-ui,sans-serif}
+h1,h2,h3,h4{font-family:'Plus Jakarta Sans',system-ui,sans-serif;margin:0;line-height:1.12;letter-spacing:-.025em}
+em{color:var(--gold);font-style:normal}
+:focus-visible{outline:2px solid var(--navy);outline-offset:3px;border-radius:6px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+nav{position:sticky;top:0;z-index:20;background:var(--bg);border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top,0px)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:68px;gap:12px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--ink);font-weight:600;font-size:.95rem;line-height:1.25}
+.logo{position:relative;width:40px;height:40px;border-radius:50%;background:var(--navy);color:var(--bg);display:grid;place-items:center;font-weight:800;font-size:.72rem;overflow:hidden}
+.logo img{position:absolute;inset:3px;width:calc(100% - 6px);height:calc(100% - 6px);object-fit:contain}
+.logo.ok{background:#fff;border:1px solid var(--line)}.logo.ok .t{display:none}
+.brand small{display:block;font-weight:400;color:var(--mute);font-size:.78rem}
+.nr{display:flex;align-items:center;gap:18px}
+.lang{display:flex;gap:2px;font-size:.85rem}
+.lang button{background:none;border:0;color:var(--mute);padding:6px 9px;font:600 .85rem 'Plus Jakarta Sans',sans-serif;cursor:pointer;border-radius:6px}
+.lang button[aria-pressed=true]{color:var(--navy);background:var(--soft)}
+.btn{display:inline-block;background:var(--btn);color:var(--btn-t);font:600 .93rem 'Plus Jakarta Sans',sans-serif;padding:13px 28px;border-radius:999px;text-decoration:none;border:1px solid var(--btn);cursor:pointer;transition:opacity .2s}
+.btn:hover{opacity:.88}.btn.o{background:transparent;color:var(--ink);border-color:var(--line)}.btn.o:hover{border-color:var(--ink)}
+nav .btn{padding:9px 20px;font-size:.88rem}
+@media(max-width:620px){nav .btn,.brand small{display:none}}
+.hero{padding:110px 0 84px;border-bottom:1px solid var(--line)}
+.eyebrow{color:var(--mute);font-size:.92rem;margin-bottom:22px}
+.hero h1{font-size:clamp(2.5rem,6.4vw,4.6rem);font-weight:800;max-width:15ch;color:var(--navy)}
+.hero p{max-width:54ch;color:var(--mute);font-size:1.12rem;margin:26px 0 36px}
+.acts{display:flex;gap:12px;flex-wrap:wrap}
+.stats{display:flex;flex-wrap:wrap;gap:0;margin-top:72px;border-top:1px solid var(--line)}
+.stats div{flex:1 1 140px;padding:22px 20px 0 0;color:var(--mute);font-size:.88rem}
+.stats b{display:block;font-size:1.7rem;font-weight:700;color:var(--ink);letter-spacing:-.02em}
+section{padding:96px 0 0}
+.sec{margin-bottom:36px;max-width:620px}
+.sec h2{font-size:clamp(1.8rem,3.6vw,2.6rem);font-weight:800;color:var(--navy)}
+.sec p{color:var(--mute);margin:14px 0 0}
+.tabs{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:30px;border-bottom:1px solid var(--line)}
+.tab{background:none;color:var(--mute);border:0;border-bottom:2px solid transparent;margin-bottom:-1px;padding:10px 0;font:500 .93rem 'Plus Jakarta Sans',sans-serif;cursor:pointer}
+.tab:hover{color:var(--ink)}.tab[aria-pressed=true]{color:var(--navy);border-bottom-color:var(--navy);font-weight:600}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0;border-top:1px solid var(--line);border-left:1px solid var(--line)}
+.card{background:var(--bg);border:0;border-right:1px solid var(--line);border-bottom:1px solid var(--line);padding:28px 24px;display:flex;flex-direction:column;gap:8px;text-align:left;cursor:pointer;color:inherit;font:inherit;transition:background .2s}
+.card:hover{background:var(--soft)}
+.card h3{font-size:1.25rem;font-weight:700;color:var(--ink)}
+.cat{font-size:.8rem;color:var(--gold);font-weight:600}
+.card p{margin:0;color:var(--mute);font-size:.92rem;line-height:1.6}
+.more{margin-top:auto;padding-top:10px;font-weight:600;color:var(--navy);font-size:.88rem}
+dialog{border:0;border-radius:16px;padding:0;max-width:520px;width:calc(100% - 32px);background:var(--bg);color:var(--ink);box-shadow:0 24px 70px rgba(0,0,0,.28)}
+dialog::backdrop{background:rgba(10,18,40,.55)}
+.dt{padding:30px 30px 22px;position:relative;border-bottom:1px solid var(--line)}
+.dt h3{font-size:2rem;color:var(--navy);font-weight:800}.dt p{margin:6px 0 0;color:var(--mute);font-size:.92rem}
+.db{padding:24px 30px 30px;display:grid;gap:20px}
+.db h4{font-size:.88rem;color:var(--gold);margin-bottom:6px;font-weight:700}
+.db p,.db ul{margin:0;color:var(--ink)}.db ul{padding-left:18px}
+.x{position:absolute;top:16px;right:16px;width:36px;height:36px;border-radius:50%;border:0;background:var(--soft);color:var(--ink);font-size:1.2rem;cursor:pointer}
+.why{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:40px}
+.why div{border-top:1px solid var(--ink);padding-top:20px}
+.why h3{font-size:1.15rem;font-weight:700;margin-bottom:8px}.why p{margin:0;color:var(--mute);font-size:.95rem}
+.qt{padding:110px 0 0}
+.qt blockquote{margin:0;font-weight:700;font-size:clamp(1.6rem,3.6vw,2.5rem);line-height:1.25;letter-spacing:-.02em;max-width:24ch;color:var(--navy)}
+.qt cite{display:block;margin-top:20px;color:var(--mute);font-style:normal;font-size:.92rem}
+.faq{max-width:760px;border-top:1px solid var(--line)}
+details{border-bottom:1px solid var(--line)}
+summary{list-style:none;cursor:pointer;padding:22px 0;font-weight:600;display:flex;justify-content:space-between;align-items:center;gap:16px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";flex:none;font-size:1.5rem;font-weight:300;color:var(--mute);transition:transform .25s}
+details[open] summary::after{transform:rotate(45deg);color:var(--navy)}
+details[open] summary{color:var(--navy)}
+details p{margin:0;padding:0 40px 24px 0;color:var(--mute)}
+.cta{margin-top:110px;background:var(--dark);color:var(--dark-t);padding:84px 0;text-align:center}
+.cta h2{font-size:clamp(1.8rem,3.8vw,2.7rem);font-weight:800}
+.cta em{color:var(--gold)}
+:root:not([data-theme="dark"]) .cta em{color:#f5b800}
+.cta p{opacity:.78;max-width:48ch;margin:16px auto 30px}
+.cta .acts{justify-content:center}
+.cta .btn{background:#fff;color:#0b3d91;border-color:#fff}
+.cta .btn.o{background:transparent;color:inherit;border-color:rgba(255,255,255,.4)}
+footer{padding:36px 0;color:var(--mute);font-size:.88rem;border-top:1px solid var(--line)}
+footer .wrap{display:flex;gap:24px;flex-wrap:wrap;justify-content:space-between}
+footer b{color:var(--ink)}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<nav><div class="wrap">
+  <a class="brand" href="#top"><span class="logo"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiD-8YPFS6i86EyZZNDUhwuam5ro_mtc9So2muvB7EDWz1Zp6rarLubvVS3vfVVoto_S6SaHlIPPnmNaddUugGUztWkJYhDwwT8CU1BcUuq9TNyxnHKa6B44iDBx6LjR1-z3r7_C34jviaWeOYgk4bNJHsziPV4KR5mQjY69HVhyphenhyphenR3STD4xp-b46x_HeR4/s160/An8Em6pLCtVUNFZTK-rgdQG9pKiDxE1AR7m_1QO_5slD3C5qFXYq7S9suI1ztpViB_aUnbOGE2-Y71AU9SF3GjQzZ09xbw5aat-JT_7ptJ4VcfdGeJ73DWbHD9IDtVHa_16MjCj09HJ4eGBvZMo-removebg-preview.png" alt="" onload="this.parentNode.classList.add('ok')" onerror="this.remove()"><span class="t">CALM</span></span><span>SMK Ciledug Al-Musaddadiyah<small>CALM · Garut</small></span></a>
+  <div class="nr">
+    <div class="lang" role="group" aria-label="Bahasa / Language"><button data-set="id" aria-pressed="true">ID</button><button data-set="en" aria-pressed="false">EN</button></div>
+    <a class="btn" href="https://www.smkciledugalmusaddadiyah.sch.id/p/ppdb-online-smk-ciledug-al-musaddadiyah.html"><span lang="id">Daftar Sekarang</span><span lang="en">Apply Now</span></a>
+  </div>
+</div></nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <div class="eyebrow"><span lang="id">Kesiswaan · Ekstrakurikuler</span><span lang="en">Student Affairs · Extracurriculars</span></div>
+    <h1><span lang="id">Kembangkan Bakat, Bangun <em>Karakter</em> Unggul</span><span lang="en">Grow Your Talent, Build <em>Excellent</em> Character</span></h1>
+    <p><span lang="id">Di SMK CALM, belajar tidak berhenti di kelas. Pilih dari 16 ekstrakurikuler untuk melatih kepemimpinan, prestasi, seni, teknologi, dan kepedulian sosial.</span><span lang="en">At SMK CALM, learning goes beyond the classroom. Choose from 16 extracurriculars to build leadership, achievement, creativity, technology skills, and social care.</span></p>
+    <div class="acts"><a class="btn" href="#jelajah"><span lang="id">Temukan Ekskulmu</span><span lang="en">Find Your Club</span></a><a class="btn o" href="#faq"><span lang="id">Tanya Jawab</span><span lang="en">FAQ</span></a></div>
+    <div class="stats">
+      <div><b>16</b><span lang="id">Ekstrakurikuler</span><span lang="en">Extracurriculars</span></div>
+      <div><b>A</b><span lang="id">Akreditasi BAN-S/M</span><span lang="en">BAN-S/M Accreditation</span></div>
+      <div><b>1996</b><span lang="id">Berdiri sejak</span><span lang="en">Established</span></div>
+    </div>
+  </div>
+</header>
+
+<main>
+<section id="jelajah"><div class="wrap">
+  <div class="sec"><h2><span lang="id">Pilih Bidang yang <em>Membuatmu</em> Bersemangat</span><span lang="en">Pick the Field That <em>Excites</em> You</span></h2>
+  <p><span lang="id">Klik kartu untuk melihat kegiatan, manfaat, dan apakah ekskul itu cocok untukmu.</span><span lang="en">Tap a card to see the activities, benefits, and whether the club suits you.</span></p></div>
+  <div class="tabs" id="tabs" role="group"></div>
+  <div class="grid" id="grid"></div>
+</div></section>
+
+<section><div class="wrap">
+  <div class="sec"><h2><span lang="id">Kenapa Harus <em>Ikut</em> Ekskul?</span><span lang="en">Why Should You <em>Join</em>?</span></h2></div>
+  <div class="why">
+    <div><h3><span lang="id">Temukan bakatmu</span><span lang="en">Discover your talent</span></h3><p><span lang="id">Banyak siswa baru tahu bakatnya setelah mencoba. Bakatmu menunggu untuk ditemukan.</span><span lang="en">Many students only find their talent by trying. Yours is waiting to be discovered.</span></p></div>
+    <div><h3><span lang="id">Teman seperjuangan</span><span lang="en">Friends who grow with you</span></h3><p><span lang="id">Latihan, gagal, dan menang bersama membangun persahabatan yang bertahan lama.</span><span lang="en">Training, failing, and winning together builds friendships that last.</span></p></div>
+    <div><h3><span lang="id">Siap kerja & berkarier</span><span lang="en">Ready for work & career</span></h3><p><span lang="id">Disiplin, kerja sama, dan percaya diri adalah bekal yang dicari dunia industri.</span><span lang="en">Discipline, teamwork, and confidence are exactly what industry looks for.</span></p></div>
+  </div>
+</div></section>
+
+<div class="qt"><div class="wrap">
+  <blockquote><span lang="id">Kamu tidak harus hebat untuk memulai, tetapi kamu harus memulai untuk menjadi <em>hebat</em>.</span><span lang="en">You don't have to be great to start, but you have to start to become <em>great</em>.</span></blockquote>
+  <cite><span lang="id">Beriman, berilmu, dan berdaya saing, semangat keluarga besar SMK CALM.</span><span lang="en">Faithful, knowledgeable, and competitive, the spirit of the SMK CALM family.</span></cite>
+</div></div>
+
+<section id="faq"><div class="wrap">
+  <div class="sec"><h2><span lang="id">Pertanyaan yang <em>Sering</em> Diajukan</span><span lang="en">Frequently Asked <em>Questions</em></span></h2></div>
+  <div class="faq" id="faqs"></div>
+</div></section>
+</main>
+
+<div class="cta"><div class="wrap">
+  <h2><span lang="id">Siap Bergabung dengan <em>SMK CALM</em>?</span><span lang="en">Ready to Join <em>SMK CALM</em>?</span></h2>
+  <p><span lang="id">Jadilah bagian dari keluarga besar SMK Ciledug Al-Musaddadiyah dan raih masa depan gemilang.</span><span lang="en">Become part of the SMK Ciledug Al-Musaddadiyah family and build a bright future.</span></p>
+  <div class="acts"><a class="btn" href="https://www.smkciledugalmusaddadiyah.sch.id/p/ppdb-online-smk-ciledug-al-musaddadiyah.html"><span lang="id">Gabung Sekarang</span><span lang="en">Join Now</span></a><a class="btn o" href="https://wa.me/6287856681523"><span lang="id">Hubungi via WhatsApp</span><span lang="en">Contact via WhatsApp</span></a></div>
+</div></div>
+
+<footer><div class="wrap">
+  <div><b>SMK Ciledug Al-Musaddadiyah</b><br>Jl. Mayor Syamsu No.2, Jayaraga, Tarogong Kidul, Garut</div>
+  <div><span lang="id">Senin–Jumat, 07.00–16.00 WIB</span><span lang="en">Mon–Fri, 07:00–16:00 WIB</span><br>(0262) 4892181 · info@smkciledug.sch.id</div>
+  <div>© 2026 SMK Ciledug Al-Musaddadiyah<br>Yayasan Al-Musaddadiyah Garut</div>
+</div></footer>
+
+<dialog id="dlg" aria-labelledby="dn">
+  <div class="dt"><button class="x" id="x" aria-label="Tutup / Close">×</button><h3 id="dn"></h3><p id="ds"></p></div>
+  <div class="db">
+    <div><h4><span lang="id">Kegiatannya</span><span lang="en">Activities</span></h4><p id="da"></p></div>
+    <div><h4><span lang="id">Yang kamu dapatkan</span><span lang="en">What you gain</span></h4><ul id="dg"></ul></div>
+    <div><h4><span lang="id">Cocok untukmu jika</span><span lang="en">A great fit if</span></h4><p id="df"></p></div>
+  </div>
+</dialog>
+
+<script>
+function T(a,b){return'<span lang="id">'+a+'</span><span lang="en">'+b+'</span>'}
+var C={ld:["Kepemimpinan","Leadership"],sp:["Olahraga & Bela Diri","Sports & Martial Arts"],ar:["Seni & Budaya","Arts & Culture"],te:["Akademik & Teknologi","Academics & Tech"],so:["Sosial & Spiritual","Social & Spiritual"]};
+// [kode,nama,subID,subEN,kat,singkatID,singkatEN,kegID,kegEN,[manfaat ID/EN x3],cocokID,cocokEN]
+var D=[
+["OSIS","OSIS","Organisasi Siswa Intra Sekolah","Student Council","ld","Wadah siswa merancang acara dan menggerakkan sekolah.","Where students plan events and move the school forward.","Merancang peringatan hari besar, lomba, dan bakti sosial.","Planning national-day events, competitions, and community service.",[["Pengalaman memimpin tim","Team leadership experience"],["Berbicara di depan umum","Public speaking"],["Jaringan pertemanan luas","A wide network"]],"kamu punya ide dan ingin mewujudkannya.","you have ideas and want to make them real."],
+["MPK","MPK","Majelis Perwakilan Kelas","Class Representative Council","ld","Suara tiap kelas yang mengawal arah organisasi siswa.","The voice of every class guiding student organizations.","Menampung aspirasi kelas dan mengawasi program OSIS.","Collecting class aspirations and overseeing OSIS programs.",[["Berpikir kritis","Critical thinking"],["Bermusyawarah","Deliberation skills"],["Adil dan bertanggung jawab","Fairness and responsibility"]],"kamu suka mendengar dan berani bicara jujur.","you listen well and speak up honestly."],
+["PR","Pramuka","Siaga, mandiri, berbudi luhur","Resilient, independent, noble","ld","Belajar mandiri dan peduli alam lewat petualangan.","Learn independence and care for nature through adventure.","Latihan rutin, perkemahan, tali-temali, dan penjelajahan.","Regular training, camping, knot-tying, and exploration.",[["Kemandirian","Independence"],["Kerja sama regu","Squad teamwork"],["Cinta tanah air","Love for the homeland"]],"kamu suka petualangan di alam terbuka.","you love outdoor adventure."],
+["PB","Paskibra","Pasukan Pengibar Bendera","Flag Raising Troop","ld","Disiplin dan kebanggaan lewat baris-berbaris.","Discipline and pride through marching.","Latihan baris-berbaris dan bertugas mengibarkan Merah Putih.","Marching drills and raising the national flag at ceremonies.",[["Disiplin dan fisik prima","Discipline and fitness"],["Percaya diri","Confidence"],["Rasa bangga pada bangsa","National pride"]],"kamu ingin tegap, disiplin, dan jadi teladan.","you want to stand tall and set an example."],
+["PK","PKS","Patroli Keamanan Sekolah","School Safety Patrol","ld","Penjaga ketertiban dan keselamatan sekolah.","Guardians of order and safety at school.","Membantu ketertiban, tata tertib, dan keselamatan siswa.","Supporting school order, rules, and student safety.",[["Tanggung jawab","Responsibility"],["Peduli keselamatan","Safety awareness"],["Tenang di situasi sulit","Composure under pressure"]],"kamu peduli keamanan dan siap jadi panutan.","you care about safety and lead by example."],
+["VL","Voli","Bola Voli","Volleyball","sp","Olahraga tim yang menuntut kekompakan dan ketepatan.","A team sport built on coordination and precision.","Latihan servis, passing, smash, blok, dan turnamen.","Serving, passing, spiking, blocking, and tournaments.",[["Kebugaran","Fitness"],["Komunikasi tim","Team communication"],["Pantang menyerah","Never giving up"]],"kamu menikmati kemenangan bersama tim.","you enjoy winning together."],
+["FT","Futsal","Cepat, taktis, kompak","Fast, tactical, united","sp","Permainan cepat yang mengasah teknik dan strategi.","A fast game that sharpens technique and strategy.","Teknik dasar, taktik, dan laga antarkelas maupun antarsekolah.","Core skills, tactics, and inter-class or inter-school matches.",[["Teknik dan stamina","Skill and stamina"],["Membaca permainan","Reading the game"],["Sportivitas","Sportsmanship"]],"kamu suka bola dan tempo cepat.","you love football at a fast tempo."],
+["BK","Basket","Bola Basket","Basketball","sp","Lari, loncat, menembak, semua dilatih sekaligus.","Run, jump, shoot: everything trained at once.","Dribble, passing, shooting, dan strategi tim.","Dribbling, passing, shooting, and team strategy.",[["Koordinasi","Coordination"],["Fokus saat tertekan","Focus under pressure"],["Kompetitif yang sehat","Healthy competitiveness"]],"kamu energik dan suka tantangan fisik.","you are energetic and love physical challenges."],
+["SL","Silat","Pencak Silat","Pencak Silat","sp","Bela diri warisan bangsa untuk fisik dan karakter.","A heritage martial art for body and character.","Jurus, kuda-kuda, teknik tanding, seni ganda dan regu.","Forms, stances, sparring, and paired or team performance.",[["Kemampuan bela diri","Self-defense skills"],["Rendah hati","Humility"],["Budaya Nusantara","Indonesian culture"]],"kamu ingin kuat dan menjaga budaya.","you want to be strong and preserve culture."],
+["KR","Karate","Seni Bela Diri Jepang","Japanese Martial Art","sp","Kata, kumite, dan disiplin tinggi.","Kata, kumite, and high discipline.","Kihon, kata, kumite, dan ujian kenaikan sabuk.","Kihon, kata, kumite, and belt promotion tests.",[["Pengendalian diri","Self-control"],["Kekuatan dan fleksibilitas","Strength and flexibility"],["Semangat naik sabuk","Belt-by-belt drive"]],"kamu suka latihan terukur dan target jelas.","you like structured training and clear goals."],
+["TE","Teater","Seni Peran","Performing Arts","ar","Panggung untuk berekspresi dan bercerita.","A stage to express yourself and tell stories.","Olah vokal, olah tubuh, akting, naskah, dan pementasan.","Voice, movement, acting, scripts, and stage shows.",[["Percaya diri tampil","Stage confidence"],["Empati","Empathy"],["Kreativitas bercerita","Storytelling creativity"]],"kamu suka bercerita dan ingin berani tampil.","you love stories and want to perform boldly."],
+["PD","Padus","Paduan Suara","Choir","ar","Banyak suara menyatu jadi harmoni.","Many voices becoming one harmony.","Latihan vokal, pernapasan, harmonisasi, dan tampil di acara.","Vocal and breathing training, harmony, and performances.",[["Kepekaan musikal","Musical sense"],["Kekompakan","Unity"],["Berani tampil","Courage to perform"]],"kamu suka bernyanyi bersama.","you love singing together."],
+["TC","TCM","Tim Creative Multimedia","Creative Multimedia Team","te","Karya kreatif: foto, video, desain, dan konten digital.","Creative output: photo, video, design, and digital content.","Fotografi, videografi, editing, desain grafis, dan dokumentasi kegiatan sekolah.","Photography, videography, editing, graphic design, and school event coverage.",[["Keterampilan multimedia","Multimedia skills"],["Portofolio karya nyata","A real-world portfolio"],["Kreativitas dan kerja tim","Creativity and teamwork"]],"kamu suka membuat foto, video, atau desain.","you love making photos, videos, or designs."],
+["KT","Komptik","Komputer dan TIK","Computer & ICT","te","Dunia digital: desain, coding, dan literasi teknologi.","The digital world: design, coding, and tech literacy.","Pengolahan dokumen, desain, pemrograman dasar, karya digital.","Documents, design, basic programming, and digital projects.",[["Keterampilan teknologi","Tech skills"],["Logika masalah","Problem-solving logic"],["Bekal karier masa depan","Future career readiness"]],"kamu penasaran cara teknologi bekerja.","you are curious how technology works."],
+["RH","Rohis","Rohani Islam","Islamic Spiritual Club","so","Memperdalam iman, akhlak, dan kebersamaan.","Deepen faith, character, and togetherness.","Kajian, tadarus, peringatan hari besar Islam, dan bakti sosial.","Study circles, Quran recitation, Islamic events, and service.",[["Pemahaman agama","Religious understanding"],["Akhlak dan kepemimpinan","Character and leadership"],["Persaudaraan","Brotherhood and sisterhood"]],"kamu ingin tumbuh dalam iman dan berbuat baik.","you want to grow in faith and do good."],
+["PM","PMR","Palang Merah Remaja","Youth Red Cross","so","Siap menolong dengan keterampilan pertolongan pertama.","Ready to help with first-aid skills.","Latihan P3K, donor darah, bakti sosial, siaga bencana.","First-aid drills, blood drives, service, and disaster readiness.",[["Pertolongan pertama","First-aid skills"],["Empati","Empathy"],["Sigap dan tenang","Alert and calm"]],"kamu ingin menolong sesama.","you want to help others."]
+];
+var F=[
+["Siapa saja yang boleh ikut ekstrakurikuler?","Who can join the extracurriculars?","Semua siswa SMK CALM dari seluruh jurusan boleh bergabung. Tidak perlu punya pengalaman, cukup punya niat untuk belajar.","All SMK CALM students from every program can join. No experience is needed, only the will to learn."],
+["Apakah boleh ikut lebih dari satu ekskul?","Can I join more than one?","Boleh, selama jadwalnya tidak bentrok dan pelajaran tetap terjaga. Kami sarankan memilih satu atau dua ekskul agar bisa fokus.","Yes, as long as schedules don't clash and your studies stay on track. We recommend one or two so you can stay focused."],
+["Bagaimana cara mendaftar?","How do I register?","Temui pembina atau pengurus ekskul pilihanmu, isi formulir pendaftaran, lalu ikuti latihan perdana. Kamu juga bisa bertanya lewat WhatsApp sekolah.","Meet the coach or officers of your chosen club, fill in the form, and attend the first session. You can also ask via the school's WhatsApp."],
+["Kapan jadwal latihannya?","When are the training sessions?","Jadwal ditentukan oleh pembina masing-masing ekskul di luar jam pelajaran. Informasi terbaru diumumkan melalui sekolah.","Each coach sets the schedule outside lesson hours. Updates are announced through the school."],
+["Apakah ekskul memengaruhi nilai atau rapor?","Does it affect my grades?","Kegiatan ekskul mendukung penilaian karakter dan bisa tercatat sebagai prestasi. Pelajaran tetap menjadi prioritas utama.","Club activities support character assessment and can be recorded as achievements. Academics remain the top priority."],
+["Apakah ada biaya mengikuti ekskul?","Is there a fee?","Ketentuan biaya dan perlengkapan (misalnya seragam latihan) bisa berbeda tiap ekskul. Tanyakan langsung ke pembina atau hubungi sekolah.","Fees and equipment (such as training uniforms) may differ by club. Ask the coach directly or contact the school."],
+["Bagaimana jika aku belum tahu cocok di mana?","What if I'm not sure which one fits?","Mulailah dari bidang yang paling kamu sukai, atau datang dan lihat latihannya dulu. Pembina dengan senang hati membantu.","Start with the field you enjoy most, or visit a session first. The coaches are happy to help."]
+];
+var tabs=document.getElementById('tabs'),grid=document.getElementById('grid'),cur='all',dlg=document.getElementById('dlg');
+function mk(k,a,b){var x=document.createElement('button');x.className='tab';x.innerHTML=T(a,b);x.setAttribute('aria-pressed',k===cur);x.onclick=function(){cur=k;[].forEach.call(tabs.children,function(t){t.setAttribute('aria-pressed','false')});x.setAttribute('aria-pressed','true');draw()};tabs.appendChild(x)}
+mk('all','Semua','All');for(var k in C)mk(k,C[k][0],C[k][1]);
+function draw(){grid.innerHTML='';D.forEach(function(d){if(cur!=='all'&&d[4]!==cur)return;var c=document.createElement('button');c.className='card';
+c.innerHTML='<span class="cat">'+T(C[d[4]][0],C[d[4]][1])+'</span><h3>'+d[1]+'</h3><p>'+T(d[5],d[6])+'</p><span class="more">'+T('Lihat detail','View details')+'</span>';
+c.onclick=function(){op(d)};grid.appendChild(c)})}
+function op(d){document.getElementById('dn').textContent=d[1];document.getElementById('ds').innerHTML=T(d[2],d[3])+' · '+T(C[d[4]][0],C[d[4]][1]);document.getElementById('da').innerHTML=T(d[7],d[8]);
+document.getElementById('dg').innerHTML=d[9].map(function(g){return'<li>'+T(g[0],g[1])+'</li>'}).join('');document.getElementById('df').innerHTML=T(d[10],d[11]);dlg.showModal()}
+document.getElementById('x').onclick=function(){dlg.close()};dlg.addEventListener('click',function(e){if(e.target===dlg)dlg.close()});
+document.getElementById('faqs').innerHTML=F.map(function(f){return'<details><summary><span>'+T(f[0],f[1])+'</span></summary><p>'+T(f[2],f[3])+'</p></details>'}).join('');
+[].forEach.call(document.querySelectorAll('[data-set]'),function(b){b.onclick=function(){var l=b.getAttribute('data-set');document.documentElement.setAttribute('data-l',l);document.documentElement.lang=l;[].forEach.call(document.querySelectorAll('[data-set]'),function(x){x.setAttribute('aria-pressed',x===b)});try{localStorage.setItem('calm-l',l)}catch(e){}}});
+try{var s=localStorage.getItem('calm-l');if(s){document.querySelector('[data-set="'+s+'"]').click()}}catch(e){}
+draw();
+</script>
+</body>
+</html>
