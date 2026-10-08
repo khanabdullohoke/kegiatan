@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="id" data-l="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kegiatan Siswa | SMK Ciledug Al-Musaddadiyah</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#0b3d91;--gold:#b8860b;--bg:#fff;--soft:#f5f7fb;--ink:#14213d;--mute:#5d6882;--line:#e4e8f1;--btn:#0b3d91;--btn-t:#fff;--dark:#0b3d91;--dark-t:#fff;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--navy:#8fb0ff;--gold:#f5b800;--bg:#0a1228;--soft:#0f1a36;--ink:#eef2ff;--mute:#a3b0d1;--line:#1f2d55;--btn:#8fb0ff;--btn-t:#0a1228;--dark:#0f1a36;--dark-t:#eef2ff}}
+:root[data-theme="dark"]{--navy:#8fb0ff;--gold:#f5b800;--bg:#0a1228;--soft:#0f1a36;--ink:#eef2ff;--mute:#a3b0d1;--line:#1f2d55;--btn:#8fb0ff;--btn-t:#0a1228;--dark:#0f1a36;--dark-t:#eef2ff}
+html{height:100%;scroll-behavior:smooth;scroll-padding-top:calc(72px + env(safe-area-inset-top,0px))}
+html[data-l=id] [lang=en],html[data-l=en] [lang=id]{display:none!important}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;min-height:100%;background:var(--bg);color:var(--ink);font:400 16.5px/1.7 'Plus Jakarta Sans',system-ui,sans-serif}
+h1,h2,h3,h4{font-family:'Plus Jakarta Sans',system-ui,sans-serif;margin:0;line-height:1.12;letter-spacing:-.025em}
+em{color:var(--gold);font-style:normal}
+:focus-visible{outline:2px solid var(--navy);outline-offset:3px;border-radius:6px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+nav{position:sticky;top:0;z-index:20;background:var(--bg);border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top,0px)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:68px;gap:12px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--ink);font-weight:600;font-size:.95rem;line-height:1.25}
+.logo{position:relative;width:40px;height:40px;border-radius:50%;background:var(--navy);color:var(--bg);display:grid;place-items:center;font-weight:800;font-size:.72rem;overflow:hidden}
+.logo img{position:absolute;inset:3px;width:calc(100% - 6px);height:calc(100% - 6px);object-fit:contain}
+.logo.ok{background:#fff;border:1px solid var(--line)}.logo.ok .t{display:none}
+.brand small{display:block;font-weight:400;color:var(--mute);font-size:.78rem}
+.nr{display:flex;align-items:center;gap:18px}
+.lang{display:flex;gap:2px;font-size:.85rem}
+.lang button{background:none;border:0;color:var(--mute);padding:6px 9px;font:600 .85rem 'Plus Jakarta Sans',sans-serif;cursor:pointer;border-radius:6px}
+.lang button[aria-pressed=true]{color:var(--navy);background:var(--soft)}
+.btn{display:inline-block;background:var(--btn);color:var(--btn-t);font:600 .93rem 'Plus Jakarta Sans',sans-serif;padding:13px 28px;border-radius:999px;text-decoration:none;border:1px solid var(--btn);cursor:pointer;transition:opacity .2s}
+.btn:hover{opacity:.88}.btn.o{background:transparent;color:var(--ink);border-color:var(--line)}.btn.o:hover{border-color:var(--ink)}
+nav .btn{padding:9px 20px;font-size:.88rem}
+@media(max-width:620px){nav .btn,.brand small{display:none}}
+.hero{padding:110px 0 84px;border-bottom:1px solid var(--line)}
+.eyebrow{color:var(--mute);font-size:.92rem;margin-bottom:22px}
+.hero h1{font-size:clamp(2.5rem,6.4vw,4.6rem);font-weight:800;max-width:15ch;color:var(--navy)}
+.hero p{max-width:54ch;color:var(--mute);font-size:1.12rem;margin:26px 0 36px}
+.acts{display:flex;gap:12px;flex-wrap:wrap}
+.stats{display:flex;flex-wrap:wrap;gap:0;margin-top:72px;border-top:1px solid var(--line)}
+.stats div{flex:1 1 140px;padding:22px 20px 0 0;color:var(--mute);font-size:.88rem}
+.stats b{display:block;font-size:1.7rem;font-weight:700;color:var(--ink);letter-spacing:-.02em}
+section{padding:96px 0 0}
+.sec{margin-bottom:36px;max-width:620px}
+.sec h2{font-size:clamp(1.8rem,3.6vw,2.6rem);font-weight:800;color:var(--navy)}
+.sec p{color:var(--mute);margin:14px 0 0}
+.tabs{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:30px;border-bottom:1px solid var(--line)}
+.tab{background:none;color:var(--mute);border:0;border-bottom:2px solid transparent;margin-bottom:-1px;padding:10px 0;font:500 .93rem 'Plus Jakarta Sans',sans-serif;cursor:pointer}
+.tab:hover{color:var(--ink)}.tab[aria-pressed=true]{color:var(--navy);border-bottom-color:var(--navy);font-weight:600}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:0;border-top:1px solid var(--line);border-left:1px solid var(--line)}
+.card{background:var(--bg);border:0;border-right:1px solid var(--line);border-bottom:1px solid var(--line);padding:28px 24px;display:flex;flex-direction:column;gap:8px;text-align:left;cursor:pointer;color:inherit;font:inherit;transition:background .2s}
+.card:hover{background:var(--soft)}
+.card h3{font-size:1.25rem;font-weight:700;color:var(--ink)}
+.cat{font-size:.8rem;color:var(--gold);font-weight:600}
+.card p{margin:0;color:var(--mute);font-size:.92rem;line-height:1.6}
+.more{margin-top:auto;padding-top:10px;font-weight:600;color:var(--navy);font-size:.88rem}
+dialog{border:0;border-radius:16px;padding:0;max-width:520px;width:calc(100% - 32px);background:var(--bg);color:var(--ink);box-shadow:0 24px 70px rgba(0,0,0,.28)}
+dialog::backdrop{background:rgba(10,18,40,.55)}
+.dt{padding:30px 30px 22px;position:relative;border-bottom:1px solid var(--line)}
+.dt h3{font-size:2rem;color:var(--navy);font-weight:800}.dt p{margin:6px 0 0;color:var(--mute);font-size:.92rem}
+.db{padding:24px 30px 30px;display:grid;gap:20px}
+.db h4{font-size:.88rem;color:var(--gold);margin-bottom:6px;font-weight:700}
+.db p,.db ul{margin:0;color:var(--ink)}.db ul{padding-left:18px}
+.x{position:absolute;top:16px;right:16px;width:36px;height:36px;border-radius:50%;border:0;background:var(--soft);color:var(--ink);font-size:1.2rem;cursor:pointer}
+.why{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:40px}
+.why div{border-top:1px solid var(--ink);padding-top:20px}
+.why h3{font-size:1.15rem;font-weight:700;margin-bottom:8px}.why p{margin:0;color:var(--mute);font-size:.95rem}
+.qt{padding:110px 0 0}
+.qt blockquote{margin:0;font-weight:700;font-size:clamp(1.6rem,3.6vw,2.5rem);line-height:1.25;letter-spacing:-.02em;max-width:24ch;color:var(--navy)}
+.qt cite{display:block;margin-top:20px;color:var(--mute);font-style:normal;font-size:.92rem}
+.faq{max-width:760px;border-top:1px solid var(--line)}
+details{border-bottom:1px solid var(--line)}
+summary{list-style:none;cursor:pointer;padding:22px 0;font-weight:600;display:flex;justify-content:space-between;align-items:center;gap:16px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";flex:none;font-size:1.5rem;font-weight:300;color:var(--mute);transition:transform .25s}
+details[open] summary::after{transform:rotate(45deg);color:var(--navy)}
+details[open] summary{color:var(--navy)}
+details p{margin:0;padding:0 40px 24px 0;color:var(--mute)}
+.cta{margin-top:110px;background:var(--dark);color:var(--dark-t);padding:84px 0;text-align:center}
+.cta h2{font-size:clamp(1.8rem,3.8vw,2.7rem);font-weight:800}
+.cta em{color:var(--gold)}
+:root:not([data-theme="dark"]) .cta em{color:#f5b800}
+.cta p{opacity:.78;max-width:48ch;margin:16px auto 30px}
+.cta .acts{justify-content:center}
+.cta .btn{background:#fff;color:#0b3d91;border-color:#fff}
+.cta .btn.o{background:transparent;color:inherit;border-color:rgba(255,255,255,.4)}
+footer{padding:36px 0;color:var(--mute);font-size:.88rem;border-top:1px solid var(--line)}
+footer .wrap{display:flex;gap:24px;flex-wrap:wrap;justify-content:space-between}
+footer b{color:var(--ink)}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+.tl{border-top:1px solid var(--line)}
+.row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.6fr);gap:12px 48px;padding:30px 0;border-bottom:1px solid var(--line)}
+@media(max-width:760px){.row{grid-template-columns:1fr}}
+.row h3{font-size:1.2rem;font-weight:700;display:flex;gap:10px;align-items:baseline}
+.dot{flex:none;width:7px;height:7px;border-radius:50%;background:var(--gold);transform:translateY(-2px)}
+.row p{margin:0 0 14px;color:var(--mute)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chips span{border:1px solid var(--line);border-radius:999px;padding:3px 13px;font-size:.8rem;color:var(--navy);font-weight:600}
+.lead{color:var(--mute);margin:0 0 28px;max-width:60ch}
+.legend{margin-top:22px;color:var(--mute);font-size:.85rem;display:flex;gap:8px;align-items:center}
+.hl{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:36px}
+.hl div{border-top:1px solid var(--ink);padding-top:18px}
+.hl h3{font-size:1.1rem;font-weight:700;margin-bottom:8px}.hl p{margin:0;color:var(--mute);font-size:.93rem}
+</style>
+</head>
+<body>
+<nav><div class="wrap">
+  <a class="brand" href="#top"><span class="logo"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiD-8YPFS6i86EyZZNDUhwuam5ro_mtc9So2muvB7EDWz1Zp6rarLubvVS3vfVVoto_S6SaHlIPPnmNaddUugGUztWkJYhDwwT8CU1BcUuq9TNyxnHKa6B44iDBx6LjR1-z3r7_C34jviaWeOYgk4bNJHsziPV4KR5mQjY69HVhyphenhyphenR3STD4xp-b46x_HeR4/s160/An8Em6pLCtVUNFZTK-rgdQG9pKiDxE1AR7m_1QO_5slD3C5qFXYq7S9suI1ztpViB_aUnbOGE2-Y71AU9SF3GjQzZ09xbw5aat-JT_7ptJ4VcfdGeJ73DWbHD9IDtVHa_16MjCj09HJ4eGBvZMo-removebg-preview.png" alt="" onload="this.parentNode.classList.add('ok')" onerror="this.remove()"><span class="t">CALM</span></span><span>SMK Ciledug Al-Musaddadiyah<small>CALM · Garut</small></span></a>
+  <div class="nr">
+    <div class="lang" role="group" aria-label="Bahasa / Language"><button data-set="id" aria-pressed="true">ID</button><button data-set="en" aria-pressed="false">EN</button></div>
+    <a class="btn" href="https://www.smkciledugalmusaddadiyah.sch.id/p/ppdb-online-smk-ciledug-al-musaddadiyah.html"><span lang="id">Daftar Sekarang</span><span lang="en">Apply Now</span></a>
+  </div>
+</div></nav>
+
+<header class="hero" id="top"><div class="wrap">
+  <div class="eyebrow"><span lang="id">Kesiswaan · Kegiatan</span><span lang="en">Student Affairs · Activities</span></div>
+  <h1><span lang="id">Ritme Kegiatan yang Membentuk <em>Karakter</em></span><span lang="en">The Rhythm of Activities That Shapes <em>Character</em></span></h1>
+  <p><span lang="id">Dari kebiasaan harian hingga agenda tahunan, setiap kegiatan di SMK CALM saling terhubung dengan ekstrakurikuler untuk menumbuhkan disiplin, iman, keterampilan, dan prestasi.</span><span lang="en">From daily habits to yearly agendas, every activity at SMK CALM connects with the extracurriculars to build discipline, faith, skills, and achievement.</span></p>
+  <div class="acts"><a class="btn" href="#ritme"><span lang="id">Lihat Kegiatan</span><span lang="en">View Activities</span></a><a class="btn o" href="https://www.smkciledugalmusaddadiyah.sch.id/p/ekstrakurikuler.html"><span lang="id">Ekstrakurikuler</span><span lang="en">Extracurriculars</span></a></div>
+</div></header>
+
+<main>
+<section id="ritme"><div class="wrap">
+  <div class="sec"><h2><span lang="id">Kegiatan Siswa dari Waktu <em>ke Waktu</em></span><span lang="en">Student Activities <em>Over Time</em></span></h2></div>
+  <div class="tabs" id="tabs" role="group"></div>
+  <p class="lead" id="lead"></p>
+  <div class="tl" id="tl"></div>
+  <div class="legend"><span class="dot"></span><span lang="id">Kegiatan yang juga tercantum di website resmi sekolah</span><span lang="en">Activities also featured on the school's official website</span></div>
+</div></section>
+
+<section><div class="wrap">
+  <div class="sec"><h2><span lang="id">Sorotan dari <em>Sekolah</em></span><span lang="en">School <em>Highlights</em></span></h2>
+  <p><span lang="id">Beberapa momen yang dibagikan di website resmi SMK CALM.</span><span lang="en">A few moments shared on the official SMK CALM website.</span></p></div>
+  <div class="hl">
+    <div><h3><span lang="id">Upacara bendera</span><span lang="en">Flag ceremony</span></h3><p><span lang="id">Menanamkan disiplin, nasionalisme, dan karakter di lingkungan sekolah.</span><span lang="en">Instilling discipline, nationalism, and character on campus.</span></p></div>
+    <div><h3><span lang="id">Jumat Berkah</span><span lang="en">Blessed Friday</span></h3><p><span lang="id">Pembiasaan nilai spiritual dan karakter dalam pendidikan vokasi.</span><span lang="en">Strengthening spiritual values and character in vocational education.</span></p></div>
+    <div><h3><span lang="id">Hari besar nasional</span><span lang="en">National observances</span></h3><p><span lang="id">Memaknai Hari Batik, Hari Kesaktian Pancasila, dan Hari Guru bersama siswa.</span><span lang="en">Marking Batik Day, Pancasila Sanctity Day, and Teachers' Day with students.</span></p></div>
+    <div><h3><span lang="id">Kunjungan & kemitraan</span><span lang="en">Visits & partnerships</span></h3><p><span lang="id">Kunjungan kementerian, peresmian gedung revitalisasi, dan kemitraan internasional.</span><span lang="en">Ministry visits, the revitalized building opening, and international partnerships.</span></p></div>
+  </div>
+</div></section>
+
+<div class="cta"><div class="wrap">
+  <h2><span lang="id">Jadilah Bagian dari <em>Setiap Momennya</em></span><span lang="en">Be Part of <em>Every Moment</em></span></h2>
+  <p><span lang="id">Pilih ekstrakurikulermu dan ikut mengisi ritme kegiatan SMK CALM.</span><span lang="en">Choose your extracurricular and join the rhythm of SMK CALM.</span></p>
+  <div class="acts"><a class="btn" href="https://www.smkciledugalmusaddadiyah.sch.id/p/ekstrakurikuler.html"><span lang="id">Pilih Ekskul</span><span lang="en">Choose a Club</span></a><a class="btn o" href="https://wa.me/6287856681523"><span lang="id">Tanya via WhatsApp</span><span lang="en">Ask via WhatsApp</span></a></div>
+</div></div>
+</main>
+
+<footer><div class="wrap">
+  <div><b>SMK Ciledug Al-Musaddadiyah</b><br>Jl. Mayor Syamsu No.2, Jayaraga, Tarogong Kidul, Garut</div>
+  <div><span lang="id">Senin–Jumat, 07.00–16.00 WIB</span><span lang="en">Mon–Fri, 07:00–16:00 WIB</span><br>(0262) 4892181 · info@smkciledug.sch.id</div>
+  <div>© 2026 SMK Ciledug Al-Musaddadiyah<br>Yayasan Al-Musaddadiyah Garut</div>
+</div></footer>
+
+<script>
+function T(a,b){return'<span lang="id">'+a+'</span><span lang="en">'+b+'</span>'}
+// [judulID,judulEN,deskID,deskEN,[ekskul],dariWebsite]
+var P={
+h:[["Harian","Daily"],"Rutinitas yang membangun kebiasaan baik sejak pagi hingga sore.","Routines that build good habits from morning to afternoon.",[
+["Pembiasaan iman dan akhlak","Faith and character habits","Nilai keislaman menjadi landasan keseharian siswa di lingkungan sekolah.","Islamic values guide students' everyday life on campus.",["Rohis"],1],
+["Belajar teori dan praktik jurusan","Theory and hands-on practice","Siswa berlatih langsung di laboratorium dan bengkel sesuai program keahlian.","Students practice directly in labs and workshops for their skill program.",["Komptik","TCM"],1],
+["Presensi dan tata tertib","Attendance and school rules","Kehadiran siswa dan mata pelajaran dicatat setiap hari untuk menjaga disiplin.","Student and class attendance is recorded daily to uphold discipline.",["PKS","MPK","OSIS"],1],
+["Latihan ekskul sepulang sekolah","After-school club training","Di luar jam pelajaran, siswa berlatih sesuai ekskul pilihan. Jadwal diatur oleh masing-masing pembina.","Outside lesson hours, students train in their chosen clubs. Each coach sets the schedule.",["Voli","Futsal","Basket","Padus","Teater"],0]]],
+w:[["Mingguan","Weekly"],"Agenda rutin pekanan yang menyatukan seluruh warga sekolah.","Weekly agendas that bring the whole school together.",[
+["Upacara bendera","Flag ceremony","Awal pekan dimulai dengan upacara untuk menanamkan disiplin dan nasionalisme.","The week begins with a ceremony that builds discipline and nationalism.",["Paskibra","PKS","Padus","PMR","OSIS"],1],
+["Jumat Berkah","Blessed Friday","Pembiasaan kebaikan dan penguatan nilai spiritual bersama guru dan siswa.","Cultivating good deeds and spiritual values together with teachers and students.",["Rohis","PMR"],1],
+["Latihan terjadwal ekskul","Scheduled club training","Olahraga, seni, dan kepramukaan berlatih secara berkala untuk menjaga kemampuan dan kekompakan.","Sports, arts, and scouting train regularly to keep skills and teamwork sharp.",["Pramuka","Silat","Karate","Voli","Padus"],0],
+["Koordinasi pengurus","Officers' coordination","Pengurus OSIS dan MPK menyusun serta menyelaraskan rencana kegiatan pekan berikutnya.","OSIS and MPK officers plan and align the following week's activities.",["OSIS","MPK"],0]]],
+m:[["Bulanan","Monthly"],"Pembinaan dan evaluasi berkala agar kegiatan terus berkembang.","Periodic coaching and evaluation to keep activities growing.",[
+["Rekap kehadiran dan kedisiplinan","Attendance and discipline review","Data presensi siswa direkap untuk memantau kedisiplinan dan menindaklanjutinya.","Student attendance is compiled to monitor discipline and follow up.",["PKS","MPK"],1],
+["Dokumentasi dan publikasi","Documentation and publishing","Kegiatan sekolah didokumentasikan lalu dibagikan sebagai berita dan galeri.","School events are documented and shared as news and gallery posts.",["TCM","Komptik"],1],
+["Evaluasi OSIS dan MPK","OSIS and MPK evaluation","Meninjau program yang berjalan, menampung aspirasi kelas, dan menyusun perbaikan.","Reviewing programs, gathering class feedback, and planning improvements.",["OSIS","MPK"],0],
+["Bakti sosial dan kepedulian","Community service and care","Siswa terlibat dalam kegiatan sosial, kesehatan, dan kebersihan lingkungan.","Students join social, health, and environmental care activities.",["PMR","Pramuka","Rohis"],0]]],
+y:[["Tahunan","Yearly"],"Momen besar yang menjadi puncak perjalanan siswa.","Major milestones in every student's journey.",[
+["Penerimaan murid baru dan pengenalan ekskul","New student admission and club introduction","Siswa baru mengenal sekolah dan memilih ekstrakurikuler yang sesuai minat.","New students get to know the school and choose clubs that match their interests.",["OSIS","TCM","Pramuka","Paskibra"],1],
+["Peringatan hari besar nasional dan keagamaan","National and religious observances","Sekolah memaknai Hari Batik, Hari Kesaktian Pancasila, Hari Guru, dan hari besar lainnya.","The school marks Batik Day, Pancasila Sanctity Day, Teachers' Day, and other observances.",["Padus","Teater","Rohis","Paskibra"],1],
+["Kunjungan dan acara bersama pemerintah","Government visits and events","Sekolah menyambut kunjungan kementerian dan peresmian fasilitas baru.","The school welcomes ministry visits and the opening of new facilities.",["OSIS","Padus","Teater","TCM"],1],
+["Praktik kerja lapangan","Industry internship","Siswa belajar di dunia usaha dan industri mitra untuk memperkuat keterampilan.","Students learn at partner companies and industries to strengthen their skills.",["Komptik","TCM"],1],
+["Lomba dan prestasi","Competitions and achievements","Siswa berkompetisi di tingkat kabupaten, provinsi, hingga nasional.","Students compete at district, provincial, and national levels.",["Voli","Futsal","Basket","Silat","Karate","Padus","TCM"],1],
+["Kebersamaan dan kenangan angkatan","Class togetherness and memories","Foto bersama angkatan dan momen kebersamaan yang akan selalu terkenang.","Class photos and shared moments that will be remembered for years.",["TCM","OSIS"],1]]]};
+var tabs=document.getElementById('tabs'),tl=document.getElementById('tl'),lead=document.getElementById('lead');
+function show(k){var p=P[k];lead.innerHTML=T(p[1],p[2]);tl.innerHTML=p[3].map(function(r){return'<div class="row"><h3>'+(r[5]?'<i class="dot"></i>':'')+'<span>'+T(r[0],r[1])+'</span></h3><div><p>'+T(r[2],r[3])+'</p><div class="chips">'+r[4].map(function(e){return'<span>'+e+'</span>'}).join('')+'</div></div></div>'}).join('')}
+var cur='h';
+['h','w','m','y'].forEach(function(k){var b=document.createElement('button');b.className='tab';b.innerHTML=T(P[k][0][0],P[k][0][1]);b.setAttribute('aria-pressed',k===cur);b.onclick=function(){[].forEach.call(tabs.children,function(t){t.setAttribute('aria-pressed','false')});b.setAttribute('aria-pressed','true');show(k)};tabs.appendChild(b)});
+show('h');
+[].forEach.call(document.querySelectorAll('[data-set]'),function(b){b.onclick=function(){var l=b.getAttribute('data-set');document.documentElement.setAttribute('data-l',l);document.documentElement.lang=l;[].forEach.call(document.querySelectorAll('[data-set]'),function(x){x.setAttribute('aria-pressed',x===b)});try{localStorage.setItem('calm-l',l)}catch(e){}}});
+try{var s=localStorage.getItem('calm-l');if(s){document.querySelector('[data-set="'+s+'"]').click()}}catch(e){}
+</script>
+</body>
+</html>
